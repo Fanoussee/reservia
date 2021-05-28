@@ -1,0 +1,157 @@
+@media screen and (max-width: 1850px) {
+    .hebergements {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-categorie {
+        margin-bottom: 20px;
+    }
+
+    .hebergements-liste {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .hebergements-carte:hover,
+    .activites-carte:hover {
+        transform: none;
+    }
+
+    .img-haut {
+        width: 400px;
+    }
+
+    .no-background {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .img-haut {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .filtres_bouton {
+        margin-bottom: 20px;
+    }
+
+    .hebergements-liste {
+        flex-direction: column;
+        /*width: 50%;*/
+    }
+    .img-haut {
+        width: auto;
+    }
+    .hebergements-liste {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .footer-boite {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        margin: 50px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .footer-boite{
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .menu li {
+        text-align: center;
+        margin: 20px 0px;
+        padding: 10px;
+        width: 50%;
+        border-bottom: 2px rgb(242, 242, 242) solid;
+    }
+
+    .menu a {
+        color: black;
+        font-weight: normal;
+    }
+
+    .menu a:hover {
+        border: none;
+    }
+
+    .menu .menu--actif {
+        border-bottom: 3px rgb(0, 101, 252) solid;
+    }
+
+    .menu .menu--actif a {
+        color: rgb(0, 101, 252);
+    }
+
+    #inscription {
+        position: fixed;
+        top: 65px;
+        right: 50px;
+    }
+
+    #inscription a {
+        background-color: white;
+        padding: 20px;
+    }
+
+    #btn-recherche {
+        display: none;
+    }
+
+    #btn-loupe {
+        display: block;
+    }
+
+    .img-gauche {
+        width: 150px;
+        height: 150px;
+    }
+
+    .hebergements-liste {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .activites-carte img {
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 20px;
+    }
+
+    #inscription {
+        position: fixed;
+        top: 35px;
+        right: 50px;
+    }
+
+    input {
+        font-size: 1em;
+        width: 150px;
+    }
+
+    
+}

@@ -1,0 +1,102 @@
+.hebergements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hebergements-categorie {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(242, 242, 242);
+    border-radius: 20px;
+    margin: 0px ;
+}
+
+.hebergements-categorie-titre {
+    margin: 30px 20px 10px 20px;
+}
+
+.hebergements-liste {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px 35px 20px;
+}
+
+.hebergements-carte {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 10px 10px 7px rgb(217, 217, 217);
+    transition: all 400ms ease-in-out;
+}
+
+.hebergements-carte:hover,
+.activites-carte:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.img-haut {
+    width: 260px;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.img-gauche {
+    height: 180px;
+    width: 220px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.hebergements-carte-texte {
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+}
+
+.hebergements-carte-texte h3 {
+    font-size: 1em;
+    margin: 5px 0px 0px 0px;
+}
+
+.hebergements-carte-texte p {
+    font-size: 0.8em;
+    margin: 5px 0px 0px 0px;
+}
+
+.hebergements-carte-texte i {
+    color: rgb(0, 101, 252);
+    font-size: 0.8em;
+    margin: 7px 0px 0px 0px;
+}
+
+.hebergements-carte-texte .desactive {
+    color: rgb(217, 217, 217);
+}
+
+.hebergements-categorie #afficherPlus {
+    font-weight: bold;
+    margin: 0px 0px 30px 30px;
+}
+
+.vertical {
+    flex-direction: column;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+#populaire-titre-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#populaire-titre-logo i {
+    font-size: 1.5em;
+    margin-right: 20px;
+}

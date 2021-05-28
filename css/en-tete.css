@@ -1,0 +1,32 @@
+/* MISE EN PAGE DE L'EN-TETE*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-left: 40px;
+}
+
+.menu a {
+    padding-top: 30px;
+}
+
+.menu a:hover {
+    border-top: solid 2px rgb(0, 101, 252);
+}
+
+#inscription a {
+    color: rgb(0, 101, 252);
+    font-weight: bold;
+
+}

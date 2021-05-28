@@ -1,0 +1,35 @@
+/* MISE EN PAGE GENERALE */
+body {
+    font-family: "Raleway";
+    margin: 50px 150px;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* PETIT CHEVRON FIXE POUR REVENIR EN HAUT DE LA PAGE*/
+.haut-de-page {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 3em;
+    color: rgb(0, 101, 252);
+}
+
+a:hover {
+    color: rgb(0, 101, 252);
+    font-weight: bold;
+}

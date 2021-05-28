@@ -1,0 +1,121 @@
+#recherche {
+    margin-top: 40px;
+}
+
+#recherche h1 {
+    margin-bottom: -10px;
+}
+
+#form-recherche {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pointeur-recherche {
+    padding: 15px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px 0px 0px 15px;
+}
+
+input {
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding-left: 15px;
+    border: solid 1px rgb(242, 242, 242);
+    width: 300px;
+}
+
+#btn-recherche {
+    background-color: rgb(0, 101, 252);
+    font-family: 'Raleway';
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    padding: 0px 15px 0px 15px;
+}
+
+#btn-recherche:hover {
+    cursor: pointer;
+}
+
+#btn-loupe {
+    display: none;
+    padding: 15px;
+    color: white;
+    background-color: rgb(0, 101, 252);
+    border-radius: 0px 15px 15px 0px;
+}
+
+#filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+#filtres-titre {
+    margin-right: 30px;
+    font-size: 1.2em;
+}
+
+.filtres_groupe_boutons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filtres_bouton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 25px;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 30px;
+    margin-right: 30px;
+    font-size: 1.1em;
+    width: auto;
+}
+
+.filtres_bouton:hover {
+    cursor: pointer;
+}
+
+#filtres i {
+    margin: -2px 20px -2px -3px;
+    width: 25px;
+    text-align: center;
+    font-size: 1.3em;
+    padding: 15px;
+    color: rgb(0, 101, 252);
+    background-color: rgb(222, 235, 255);
+    border: 4px solid rgb(222, 235, 255);
+    border-radius: 50%;
+}
+
+#bulle-info {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 30px 0px;
+    align-items: center;
+}
+
+#logo-info {
+    border: 1px solid rgb(217, 217, 217);
+    padding: 5px;
+    width: 15px;
+    color: rgb(0, 101, 252);
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 0.9em;
+}
+
+#bulle-info p {
+    font-size: 1.1em;
+}

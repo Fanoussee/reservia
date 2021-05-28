@@ -1,0 +1,35 @@
+footer {
+    background-color: rgb(242, 242, 242);
+    padding: 40px 40px 20px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.footer-boite {
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+
+}
+
+.footer-boite h3 {
+    margin: 0px;
+
+}
+
+.footer-boite ul {
+    padding: 0px;
+
+}
+
+.footer-boite li {
+    padding-bottom: 0px;
+    margin-left: 0px;
+}
+
+.footer-boite a {
+    font-weight: normal;
+
+}
