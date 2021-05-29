@@ -7,7 +7,7 @@
 .hebergements-categorie {
     display: flex;
     flex-direction: column;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
     border-radius: 20px;
     margin: 0px ;
 }
@@ -37,6 +37,7 @@
 .activites-carte:hover {
     cursor: pointer;
     transform: scale(1.1);
+    color: black;
 }
 
 .img-haut {
@@ -54,6 +55,7 @@
 .hebergements-carte-texte {
     text-align: left;
     padding: 10px 0px 10px 10px;
+    font-weight: normal;
 }
 
 .hebergements-carte-texte h3 {
@@ -67,13 +69,13 @@
 }
 
 .hebergements-carte-texte i {
-    color: rgb(0, 101, 252);
+    color: #0065FC;
     font-size: 0.8em;
     margin: 7px 0px 0px 0px;
 }
 
 .hebergements-carte-texte .desactive {
-    color: rgb(217, 217, 217);
+    color: #F2F2F2;
 }
 
 .hebergements-categorie #afficherPlus {

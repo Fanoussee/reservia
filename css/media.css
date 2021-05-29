@@ -39,7 +39,6 @@
 
     .hebergements-liste {
         flex-direction: column;
-        /*width: 50%;*/
     }
     .img-haut {
         width: auto;
@@ -95,11 +94,11 @@
     }
 
     .menu .menu--actif {
-        border-bottom: 3px rgb(0, 101, 252) solid;
+        border-bottom: 3px #0065FC solid;
     }
 
     .menu .menu--actif a {
-        color: rgb(0, 101, 252);
+        color: #0065FC;
     }
 
     #inscription {

@@ -26,10 +26,9 @@ a {
     bottom: 30px;
     right: 30px;
     font-size: 3em;
-    color: rgb(0, 101, 252);
+    color: #0065FC;
 }
 
 a:hover {
-    color: rgb(0, 101, 252);
-    font-weight: bold;
+    color: #0065FC;
 }

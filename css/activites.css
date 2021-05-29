@@ -13,7 +13,7 @@
 .activites-carte {
     border-radius: 20px;
     margin: 0px 10px 50px 10px;
-    box-shadow: 10px 10px 7px rgb(217, 217, 217);
+    box-shadow: 10px 10px 7px #F2F2F2;
     padding-bottom: 10px;
     width: auto;
     transition: all 300ms ease-in-out;

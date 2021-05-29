@@ -14,7 +14,7 @@
 
 .pointeur-recherche {
     padding: 15px;
-    background-color: rgb(242, 242, 242);
+    background-color: #F2F2F2;
     border-radius: 15px 0px 0px 15px;
 }
 
@@ -23,12 +23,12 @@ input {
     font-weight: bold;
     font-family: 'Raleway';
     padding-left: 15px;
-    border: solid 1px rgb(242, 242, 242);
+    border: solid 1px #F2F2F2;
     width: 300px;
 }
 
 #btn-recherche {
-    background-color: rgb(0, 101, 252);
+    background-color: #0065FC;
     font-family: 'Raleway';
     color: white;
     font-weight: bold;
@@ -38,7 +38,8 @@ input {
     padding: 0px 15px 0px 15px;
 }
 
-#btn-recherche:hover {
+#btn-recherche:hover,
+#btn-loupe:hover {
     cursor: pointer;
 }
 
@@ -46,8 +47,9 @@ input {
     display: none;
     padding: 15px;
     color: white;
-    background-color: rgb(0, 101, 252);
+    background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
+    border: none;
 }
 
 #filtres {
@@ -63,7 +65,7 @@ input {
     font-size: 1.2em;
 }
 
-.filtres_groupe_boutons{
+.filtres_groupe_boutons {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -80,6 +82,11 @@ input {
     margin-right: 30px;
     font-size: 1.1em;
     width: auto;
+    transition: all 500ms;
+}
+
+.filtres_bouton:hover {
+    transform: scale(1.2);
 }
 
 .filtres_bouton:hover {
@@ -92,9 +99,9 @@ input {
     text-align: center;
     font-size: 1.3em;
     padding: 15px;
-    color: rgb(0, 101, 252);
-    background-color: rgb(222, 235, 255);
-    border: 4px solid rgb(222, 235, 255);
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 4px solid #DEEBFF;
     border-radius: 50%;
 }
 
@@ -106,10 +113,10 @@ input {
 }
 
 #logo-info {
-    border: 1px solid rgb(217, 217, 217);
+    border: 1px solid #F2F2F2;
     padding: 5px;
     width: 15px;
-    color: rgb(0, 101, 252);
+    color: #0065FC;
     margin-right: 15px;
     text-align: center;
     border-radius: 50%;
